@@ -30,21 +30,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app\static\css\bootstrap.css" />
-    <Content Include="app\static\css\bootstrap.min.css" />
-    <Content Include="app\static\css\logo-nav.css" />
-    <Content Include="app\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="app\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="app\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="app\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="app\static\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="app\static\app\css\bootstrap.css" />
+    <Content Include="app\static\app\css\bootstrap.min.css" />
+    <Content Include="app\static\app\css\logo-nav.css" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="app\templates\app\submit_session.html" />
     <Content Include="app\templates\auth\register.html" />
     <Content Include="app\templates\auth\registered.html" />
     <Content Include="app\templates\index.html" />
-    <Content Include="app\static\js\bootstrap.js" />
-    <Content Include="app\static\js\bootstrap.min.js" />
-    <Content Include="app\static\js\jquery.js" />
+    <Content Include="app\static\app\js\bootstrap.js" />
+    <Content Include="app\static\app\js\bootstrap.min.js" />
+    <Content Include="app\static\app\js\jquery.js" />
     <Content Include="app\templates\layout.html" />
     <Content Include="app\templates\auth\login.html" />
     <Content Include="requirements.txt" />
@@ -66,10 +66,11 @@
     <Folder Include="app\" />
     <Folder Include="app\migrations\" />
     <Folder Include="app\static\" />
+    <Folder Include="app\static\app\" />
     <Folder Include="app\templates\" />
-    <Folder Include="app\static\css\" />
-    <Folder Include="app\static\fonts\" />
-    <Folder Include="app\static\js\" />
+    <Folder Include="app\static\app\css\" />
+    <Folder Include="app\static\app\fonts\" />
+    <Folder Include="app\static\app\js\" />
     <Folder Include="app\templates\auth\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="Conference\" />

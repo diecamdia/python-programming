@@ -28,4 +28,4 @@ urlpatterns = [
     url(r'^register/', auth.register, name = 'register'),
     url(r'^submit/', views.submit_session, name = 'submit_session'),
 ] 
-urlpatterns += staticfiles_urlpatterns()
+
