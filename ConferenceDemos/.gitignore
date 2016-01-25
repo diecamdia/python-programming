@@ -195,6 +195,7 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
+*.sqlite3
 
 # Business Intelligence projects
 *.rdl.data
@@ -229,3 +230,18 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# Python compiled byte code
+*.pyc
+
+# Node modules
+node_modules/
+
+# Bower components
+static/bower_components/
+
+# Uglified JavaScript
+dist/
+
+# Staticfiles
+staticfiles/
